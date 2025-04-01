@@ -1,4 +1,4 @@
-const { sumHandler } = require("./sumHandler");
+const { sumHandler } = require("../sumHandler");
 const handleServer = (req, res) => {
   console.log(req.url, req.method);
 
