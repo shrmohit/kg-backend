@@ -1,5 +1,5 @@
 const http = require("http");
-const { handleServer } = require("./practise");
+const { handleServer } = require("./sumHandler");
 
 const Server = http.createServer(handleServer);
 
